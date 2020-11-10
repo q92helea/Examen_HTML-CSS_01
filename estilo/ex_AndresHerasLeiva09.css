@@ -22,7 +22,7 @@ p{
    text-align: justify;
    font-family: Syne;
    color:darkblue;
-   text-indent: 1cm;
+   text-indent: 1cm;/*Sangría en la primera línea*/
    font-size: 1.2em;
 }
 figcaption{
