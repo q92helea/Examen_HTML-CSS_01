@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Examen HTML-CSS 01</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo/ex_AndresHerasLeiva09.css">
+</head>
+
+<body>
+    <!--Grupo de encabezados -->
+    <hgroup>
+        <h1>Examen HTML-CSS1</h1>
+        <h2>Andrés Heras Leiva</h2>
+    </hgroup>
+    <hr>
+    <h2 id="menú">Redes Inalámbricas</h2>
+    <!--enlaces internos-->
+    <a href="#wlan">WLAN 802.11 (WIFI)</a><br>
+    <a href="#router">Configuración Router WRT300N</a><br>
+    <!--enlaces externos-->
+    <a href="https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica" target="blank_">WLAN en
+        Wikipedia</a><br>
+    <hr>
+    <!--Encabezado h3-->
+    <h3 id="wlan">
+        WLAN 802.11 (WiFi)
+    </h3>
+    <p>
+        <!--Acrónimo-->
+        <abbr title="Wireless Local Area Network">WLAN</abbr> es un sistema de comunicación de datos inalámbrico
+        flexible, muy
+        utilizado como alternativa a las redes 
+        <!--Texto resaltado-->
+        <mark>LAN cableadas</mark> o como extensión de
+        éstas. Utiliza tecnología de radiofrecuencia que permite mayor movilidad
+        a los usuarios al minimizar las conexiones cableadas. Su empleo más
+        frecuente es en pequeñas y mediana empresas para permitir a usuarios
+        móviles conectarse a la red local cableada de la empresa u organización.
+        También son muy populares en los hogares para compartir el acceso a
+        Internet entre varios ordenadores.</p>
+    <p>El <span style="font-style:italic;"> &laquo; protocolo IEEE 802.11&raquo;</span> </q> o Wi-Fi es un estándar de
+        protocolo de
+        comunicaciones del IEEE que define el uso de los dos niveles inferiores
+        de la arquitectura OSI (capas física y de enlace de datos),
+        especificando sus normas de funcionamiento en una WLAN. Su tecnología se
+        basa en el envío y recepción de ondas de radio a través del espacio
+        libre. Estas se transmiten a distinta frecuencia, pudiendo simultanearse
+        en el tiempo y en el espacio sin interferir entre ellas para permitir el
+        envío de varias comunicaciones a la vez.</p>
+    <p>En una configuración típica, existe una red cableada a la que se
+        conecta en un lugar fijo mediante cableado normalizado un punto de
+        acceso inalámbrico, que es un dispositivo que da acceso a nodos
+        inalámbricos a la red Ethernet cableada. Los nodos inalámbricos que se
+        encuentran dentro del alcance del punto de acceso pueden conectarse a la
+        red a través de éste. El punto de acceso recibe la información, la
+        almacena y la transmite entre la WLAN y la LAN cableada.
+    </p>
+
+    <p style="text-align:center;">
+    <!--Imagen con título-->
+    <figure style="align-items: center;">
+        <img src="imagenes/wifi.png" alt="WIFI">
+        <figcaption>Configuración típica de una web</figcaption>
+    </figure>
+    </p>
+
+    <hr>
+    <!--Encabezado h3-->
+
+    <h3 id="router">Configuración del Router</h3>
+    
+    <!--Imagen con título-->
+    <figure style="float:left;">
+        <img src="imagenes/radius.png" alt="RADIUS" width="700px" height="400px">
+        <figcaption style="text-align: center;">Autenticación Radius
+        </figcaption>
+    </figure>
+    <p>El router inalámbrico WRT300N dispone de una interfaz web para realizar su
+        configuración. Como tiene habilitado por defecto un servidor DHCP podemos 
+        conectar un PC a cualquier interfaz Ethernet del router para que este obtenga unos
+        parámetros IP que permitirán conectar al PC con el router. Cuando
+        nuestro PC haya obtenido Autenticación Radius una dirección IP desde
+        el router, abrimos un navegador y en la barra de dirección escribimos
+        http://192.168.0.1.</p>
+    <p>Antes de conectar el router nos exige autenticarnos. Aparecerá un
+        cuadro de autenticación en el que deberemos introducir el nombre del
+        usuario administrador y la contrasña. Si el router es nuevo o está
+        reseteado, el usuario administrador por defecto es admin y la clave
+        admin.</p>
+    <p>Una alternativa más segura que emplear autenticación y cifrado a
+        través del router WiFi y con los modos de seguridad tradicionales WPA o
+        WPA2 es utilizar un servicio RADIUS: 
+        <!--Texto entrecomillado-->
+        <q>Remote Autentication Dial-In User 
+        Server</q>. Este servicio que se ejecuta en un servidor conectado a lamisma red cableada que el router WiFi
+        permite autenticar clientes
+        inalámbricos cada uno de los cuales dispone para la conexión a la red inalámbrica unas
+        credenciales propias formadas por un par usuario/contraseña.
+        Volver al principio</p>
+    <p style="float: right;">Volver atrás
+        <a href="#menú" title="Volver atrás">
+            <img src="imagenes/atras.png" width="32px" height="32px">
+        </a></p>
+</body>
+
+</html>

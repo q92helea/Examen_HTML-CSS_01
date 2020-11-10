@@ -1,0 +1,49 @@
+@font-face{
+    font-family:Itim;
+    src:url("../fuentes/Itim/Itim-Regular.ttf")
+}
+@font-face{
+    font-family:Syne;
+    src:url(../fuentes/Syne_Mono/SyneMono-Regular.ttf)
+}
+body{
+background-image:url("../imagenes/fondo.jpg");
+background-repeat: no-repeat;/*La image no se repite*/
+background-size: cover; /*La imagen cubre toda la página*/
+}
+hgroup{
+    font-family: Itim;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+p{
+   text-align: justify;
+   font-family: Syne;
+   color:darkblue;
+   text-indent: 1cm;
+   font-size: 1.2em;
+}
+figcaption{
+font-size: 0.9em;
+font-family: sans-serif;
+color: maroon;
+text-align: center;
+}
+abbr{
+    color:darkslateblue;
+    font-size: 1.2em;
+}
+a{
+    color: purple;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+a:visited{
+color:purple
+}
+a:hover{
+    font-weight: bolder;
+
+}
